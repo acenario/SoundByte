@@ -21,6 +21,20 @@
 		DCFDAB211889CA1C00E627CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB031889CA1C00E627CF /* UIKit.framework */; };
 		DCFDAB291889CA1C00E627CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFDAB271889CA1C00E627CF /* InfoPlist.strings */; };
 		DCFDAB2B1889CA1C00E627CF /* SoundByteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDAB2A1889CA1C00E627CF /* SoundByteTests.m */; };
+		DCFDAB351889CCD400E627CF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB341889CCD400E627CF /* Parse.framework */; };
+		DCFDAB371889CCFB00E627CF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB361889CCFB00E627CF /* AudioToolbox.framework */; };
+		DCFDAB391889CD1900E627CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB381889CD1900E627CF /* AVFoundation.framework */; };
+		DCFDAB3B1889CD2100E627CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB3A1889CD2100E627CF /* CFNetwork.framework */; };
+		DCFDAB3D1889CD4400E627CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB3C1889CD4400E627CF /* CoreLocation.framework */; };
+		DCFDAB3F1889CD5200E627CF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB3E1889CD5200E627CF /* libz.dylib */; };
+		DCFDAB411889CD5A00E627CF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB401889CD5A00E627CF /* MobileCoreServices.framework */; };
+		DCFDAB431889CD6300E627CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB421889CD6300E627CF /* QuartzCore.framework */; };
+		DCFDAB451889CD6A00E627CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB441889CD6A00E627CF /* Security.framework */; };
+		DCFDAB471889CD7000E627CF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB461889CD7000E627CF /* StoreKit.framework */; };
+		DCFDAB491889CD7700E627CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB481889CD7700E627CF /* SystemConfiguration.framework */; };
+		DCFDAB4D1889CEA900E627CF /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDAB4C1889CEA900E627CF /* SoundManager.m */; };
+		DCFDAB501889D29200E627CF /* Sounds.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDAB4F1889D29200E627CF /* Sounds.m */; };
+		DCFDAB531889D41C00E627CF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDAB521889D41C00E627CF /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,23 @@
 		DCFDAB261889CA1C00E627CF /* SoundByteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundByteTests-Info.plist"; sourceTree = "<group>"; };
 		DCFDAB281889CA1C00E627CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCFDAB2A1889CA1C00E627CF /* SoundByteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundByteTests.m; sourceTree = "<group>"; };
+		DCFDAB341889CCD400E627CF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Parse SDK/Parse.framework"; sourceTree = "<group>"; };
+		DCFDAB361889CCFB00E627CF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DCFDAB381889CD1900E627CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCFDAB3A1889CD2100E627CF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DCFDAB3C1889CD4400E627CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DCFDAB3E1889CD5200E627CF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DCFDAB401889CD5A00E627CF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DCFDAB421889CD6300E627CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCFDAB441889CD6A00E627CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DCFDAB461889CD7000E627CF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DCFDAB481889CD7700E627CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DCFDAB4B1889CEA900E627CF /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		DCFDAB4C1889CEA900E627CF /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		DCFDAB4E1889D29200E627CF /* Sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sounds.h; sourceTree = "<group>"; };
+		DCFDAB4F1889D29200E627CF /* Sounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sounds.m; sourceTree = "<group>"; };
+		DCFDAB511889D41C00E627CF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DCFDAB521889D41C00E627CF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +91,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFDAB491889CD7700E627CF /* SystemConfiguration.framework in Frameworks */,
+				DCFDAB471889CD7000E627CF /* StoreKit.framework in Frameworks */,
+				DCFDAB451889CD6A00E627CF /* Security.framework in Frameworks */,
+				DCFDAB431889CD6300E627CF /* QuartzCore.framework in Frameworks */,
+				DCFDAB411889CD5A00E627CF /* MobileCoreServices.framework in Frameworks */,
+				DCFDAB3F1889CD5200E627CF /* libz.dylib in Frameworks */,
+				DCFDAB3D1889CD4400E627CF /* CoreLocation.framework in Frameworks */,
+				DCFDAB3B1889CD2100E627CF /* CFNetwork.framework in Frameworks */,
+				DCFDAB391889CD1900E627CF /* AVFoundation.framework in Frameworks */,
+				DCFDAB371889CCFB00E627CF /* AudioToolbox.framework in Frameworks */,
 				DCFDAB021889CA1C00E627CF /* CoreGraphics.framework in Frameworks */,
 				DCFDAB041889CA1C00E627CF /* UIKit.framework in Frameworks */,
+				DCFDAB351889CCD400E627CF /* Parse.framework in Frameworks */,
 				DCFDAB001889CA1C00E627CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +143,17 @@
 		DCFDAAFE1889CA1C00E627CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCFDAB481889CD7700E627CF /* SystemConfiguration.framework */,
+				DCFDAB461889CD7000E627CF /* StoreKit.framework */,
+				DCFDAB441889CD6A00E627CF /* Security.framework */,
+				DCFDAB421889CD6300E627CF /* QuartzCore.framework */,
+				DCFDAB401889CD5A00E627CF /* MobileCoreServices.framework */,
+				DCFDAB3E1889CD5200E627CF /* libz.dylib */,
+				DCFDAB3C1889CD4400E627CF /* CoreLocation.framework */,
+				DCFDAB3A1889CD2100E627CF /* CFNetwork.framework */,
+				DCFDAB381889CD1900E627CF /* AVFoundation.framework */,
+				DCFDAB361889CCFB00E627CF /* AudioToolbox.framework */,
+				DCFDAB341889CCD400E627CF /* Parse.framework */,
 				DCFDAAFF1889CA1C00E627CF /* Foundation.framework */,
 				DCFDAB011889CA1C00E627CF /* CoreGraphics.framework */,
 				DCFDAB031889CA1C00E627CF /* UIKit.framework */,
@@ -118,6 +171,9 @@
 				DCFDAB141889CA1C00E627CF /* ViewController.h */,
 				DCFDAB151889CA1C00E627CF /* ViewController.m */,
 				DCFDAB171889CA1C00E627CF /* Images.xcassets */,
+				DCFDAB551889DC6E00E627CF /* Subclasses */,
+				DCFDAB4A1889CE8200E627CF /* SoundManager */,
+				DCFDAB541889D42400E627CF /* Reachability */,
 				DCFDAB061889CA1C00E627CF /* Supporting Files */,
 			);
 			path = SoundByte;
@@ -150,6 +206,33 @@
 				DCFDAB271889CA1C00E627CF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFDAB4A1889CE8200E627CF /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				DCFDAB4B1889CEA900E627CF /* SoundManager.h */,
+				DCFDAB4C1889CEA900E627CF /* SoundManager.m */,
+			);
+			name = SoundManager;
+			sourceTree = "<group>";
+		};
+		DCFDAB541889D42400E627CF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DCFDAB511889D41C00E627CF /* Reachability.h */,
+				DCFDAB521889D41C00E627CF /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		DCFDAB551889DC6E00E627CF /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				DCFDAB4E1889D29200E627CF /* Sounds.h */,
+				DCFDAB4F1889D29200E627CF /* Sounds.m */,
+			);
+			name = Subclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCFDAB161889CA1C00E627CF /* ViewController.m in Sources */,
+				DCFDAB501889D29200E627CF /* Sounds.m in Sources */,
+				DCFDAB4D1889CEA900E627CF /* SoundManager.m in Sources */,
 				DCFDAB101889CA1C00E627CF /* AppDelegate.m in Sources */,
+				DCFDAB531889D41C00E627CF /* Reachability.m in Sources */,
 				DCFDAB0C1889CA1C00E627CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +464,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Arjun/Desktop/Projects/SoundByte/Parse\\ SDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundByte/SoundByte-Prefix.pch";
 				INFOPLIST_FILE = "SoundByte/SoundByte-Info.plist";
@@ -391,6 +481,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Arjun/Desktop/Projects/SoundByte/Parse\\ SDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundByte/SoundByte-Prefix.pch";
 				INFOPLIST_FILE = "SoundByte/SoundByte-Info.plist";
