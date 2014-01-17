@@ -122,7 +122,7 @@
         [recorder pause];
         [self.recordPauseBtn setTitle:@"Record" forState:UIControlStateNormal];
     }
-    
+    //
     [self.stopButton setEnabled:YES];
     [self.playButton setEnabled:NO];
     
