@@ -15,5 +15,6 @@
 }
 
 @dynamic byte;
+@dynamic expired;
 
 @end

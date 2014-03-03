@@ -12,6 +12,8 @@
 + (NSString *)parseClassName;
 
 @property (retain) PFFile *byte;
+@property BOOL expired;
+
 
 
 @end

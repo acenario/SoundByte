@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCE9DEDB18C515B000DD15FF /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE9DEDA18C515B000DD15FF /* NSMutableArray+Shuffling.m */; };
 		DCFDAB001889CA1C00E627CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAAFF1889CA1C00E627CF /* Foundation.framework */; };
 		DCFDAB021889CA1C00E627CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB011889CA1C00E627CF /* CoreGraphics.framework */; };
 		DCFDAB041889CA1C00E627CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFDAB031889CA1C00E627CF /* UIKit.framework */; };
@@ -48,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCE9DED918C515B000DD15FF /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		DCE9DEDA18C515B000DD15FF /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		DCE9DEDC18C517CB00DD15FF /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCFDAAFC1889CA1C00E627CF /* SoundByte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundByte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFDAAFF1889CA1C00E627CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCFDAB011889CA1C00E627CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFDAB371889CCFB00E627CF /* AudioToolbox.framework in Frameworks */,
 				DCFDAB491889CD7700E627CF /* SystemConfiguration.framework in Frameworks */,
 				DCFDAB471889CD7000E627CF /* StoreKit.framework in Frameworks */,
 				DCFDAB451889CD6A00E627CF /* Security.framework in Frameworks */,
@@ -100,7 +105,6 @@
 				DCFDAB3D1889CD4400E627CF /* CoreLocation.framework in Frameworks */,
 				DCFDAB3B1889CD2100E627CF /* CFNetwork.framework in Frameworks */,
 				DCFDAB391889CD1900E627CF /* AVFoundation.framework in Frameworks */,
-				DCFDAB371889CCFB00E627CF /* AudioToolbox.framework in Frameworks */,
 				DCFDAB021889CA1C00E627CF /* CoreGraphics.framework in Frameworks */,
 				DCFDAB041889CA1C00E627CF /* UIKit.framework in Frameworks */,
 				DCFDAB351889CCD400E627CF /* Parse.framework in Frameworks */,
@@ -143,6 +147,7 @@
 		DCFDAAFE1889CA1C00E627CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCE9DEDC18C517CB00DD15FF /* OpenAL.framework */,
 				DCFDAB481889CD7700E627CF /* SystemConfiguration.framework */,
 				DCFDAB461889CD7000E627CF /* StoreKit.framework */,
 				DCFDAB441889CD6A00E627CF /* Security.framework */,
@@ -170,6 +175,8 @@
 				DCFDAB111889CA1C00E627CF /* Main.storyboard */,
 				DCFDAB141889CA1C00E627CF /* ViewController.h */,
 				DCFDAB151889CA1C00E627CF /* ViewController.m */,
+				DCE9DED918C515B000DD15FF /* NSMutableArray+Shuffling.h */,
+				DCE9DEDA18C515B000DD15FF /* NSMutableArray+Shuffling.m */,
 				DCFDAB171889CA1C00E627CF /* Images.xcassets */,
 				DCFDAB551889DC6E00E627CF /* Subclasses */,
 				DCFDAB4A1889CE8200E627CF /* SoundManager */,
@@ -337,6 +344,7 @@
 				DCFDAB4D1889CEA900E627CF /* SoundManager.m in Sources */,
 				DCFDAB101889CA1C00E627CF /* AppDelegate.m in Sources */,
 				DCFDAB531889D41C00E627CF /* Reachability.m in Sources */,
+				DCE9DEDB18C515B000DD15FF /* NSMutableArray+Shuffling.m in Sources */,
 				DCFDAB0C1889CA1C00E627CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +562,7 @@
 				DCFDAB301889CA1C00E627CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCFDAB311889CA1C00E627CF /* Build configuration list for PBXNativeTarget "SoundByteTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +571,7 @@
 				DCFDAB331889CA1C00E627CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
