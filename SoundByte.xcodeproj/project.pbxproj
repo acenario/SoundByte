@@ -175,6 +175,7 @@
 				DCFDAB111889CA1C00E627CF /* Main.storyboard */,
 				DCFDAB141889CA1C00E627CF /* ViewController.h */,
 				DCFDAB151889CA1C00E627CF /* ViewController.m */,
+				DCFDAB4C1889CEA900E627CF /* SoundManager.m */,
 				DCE9DED918C515B000DD15FF /* NSMutableArray+Shuffling.h */,
 				DCE9DEDA18C515B000DD15FF /* NSMutableArray+Shuffling.m */,
 				DCFDAB171889CA1C00E627CF /* Images.xcassets */,
@@ -219,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				DCFDAB4B1889CEA900E627CF /* SoundManager.h */,
-				DCFDAB4C1889CEA900E627CF /* SoundManager.m */,
 			);
 			name = SoundManager;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 		DCFDAAF41889CA1C00E627CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Productions;
 				TargetAttributes = {
 					DCFDAB1C1889CA1C00E627CF = {
@@ -399,7 +399,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -438,7 +437,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -504,7 +502,6 @@
 		DCFDAB321889CA1C00E627CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundByte.app/SoundByte";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -527,7 +524,6 @@
 		DCFDAB331889CA1C00E627CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundByte.app/SoundByte";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

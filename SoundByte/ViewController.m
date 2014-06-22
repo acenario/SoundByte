@@ -224,6 +224,8 @@ static const int RECORD_TICK_MAX = 11;
     [sound saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
             NSLog(@"Sound Saved Successfully!");
+            NSData *data = [saveSound getData];
+            NSLog(@"%@",[NSByteCountFormatter stringFromByteCount:data.length countStyle:NSByteCountFormatterCountStyleFile]);
         } else {
             NSLog(@"ERROR: %@", error);
         }
@@ -278,12 +280,10 @@ static const int RECORD_TICK_MAX = 11;
 }
 
 - (void)incrementIndex {
-    int size = sounds.count - 1;
+    NSInteger size = sounds.count - 1;
     if (currentIndex + 1 > size) {
         currentIndex = 0;
-        //FOR NOW I WILL SIMPLY SHUFFLE AGAIN
         [self getSounds];
-        //[sounds shuffle];
     } else {
         currentIndex++;
         if (!soundsLoaded) {
